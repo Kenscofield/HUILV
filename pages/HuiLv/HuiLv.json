@@ -1,0 +1,19 @@
+{
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "/pages/HuiLv/末页/pages/check",
+      "text": "首页"
+      },
+      {
+        "pagePath": "/pages/HuiLv/末页/pages/graph",
+        "text": "末页"
+      }
+    ]
+  },
+  "usingComponents": {
+    "firstPage": "首页/首页",
+    "lastPage": "末页/末页"
+  },
+  "navigationBarTitleText": "汇率查询"
+}

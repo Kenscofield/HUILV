@@ -1,0 +1,14 @@
+<!--pages/HuiLv/HuiLv.wxml-->
+<view hidden="{{currentTab == 0? false: true}}">
+  <firstPage/>
+</view>
+<view hidden="{{currentTab == 1? false: true}}">
+  <lastPage/>
+</view>
+
+<view class="nav-tabs">
+  <view class="tab-list {{currentTab == idx ? 'active' : 'default' }}" wx:for="{{items}}" wx:key="prototype" wx:for-index="idx" wx:for-item="item" data-current="{{idx}}" bindtap="swichNav">
+    <text class="tab-text" wx:for-index="idx" data-current="{{idx}}" src="{{currentTab == idx ? item.selectedIconPath : item.iconPath }}">{{item.text}}</text>
+    <image class="iconPath" wx:for-index="idx" data-current="{{idx}}" src="{{currentTab == idx ? item.selectedIconPath : item.iconPath }}"></image>
+  </view>
+</view>
