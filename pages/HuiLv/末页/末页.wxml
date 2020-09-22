@@ -1,6 +1,6 @@
 <!--pages/HuiLv/末页/末页.wxml-->
 <view class='show'>
-  <text>币种：</text>
+  <text>币种</text>
   <!-- 下拉框 -->
     <view class='select_box'>
       <view class='select' catchtap='selectTaps'>
