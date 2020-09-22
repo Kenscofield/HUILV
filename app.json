@@ -1,14 +1,39 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/tarBar/tarBar",
+        "pages/firstPage/firstPage", 
+        "pages/lastPage/lastPage"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#0094ff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh":true,
+        "backgroundColor":"red"
+    },
+    "tabBar": {
+      "list": [{
+        "pagePath": "pages/firstPage/firstPage",
+        "text": "",
+        "iconPath": "pages/img/l1.png",
+        "selectedIconPath": "pages/img/l2.png"
+      }, 
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "pages/img/middle1.png",
+        "selectedIconPath": "pages/img/middle2.png"
+      },
+      {
+        "pagePath": "pages/lastPage/lastPage",
+        "text": "",
+        "iconPath": "pages/img/r1.png",
+        "selectedIconPath": "pages/img/r2.png"
+      }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
 }

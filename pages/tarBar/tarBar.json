@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "firstPage": "firstPage/firstPage",
+    "lastPage": "lastPage/lastPage"
+  }
+}

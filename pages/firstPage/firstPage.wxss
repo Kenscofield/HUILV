@@ -1,0 +1,6 @@
+/* pages/firstPage/firstPage.wxss */
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
