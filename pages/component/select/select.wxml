@@ -1,0 +1,10 @@
+<!--pages/component/select/select.wxml-->
+<view class="com-selectBox">
+    <view class="com-selectContent" bindtap="selectToggle">
+        <view class="com-selectText">{{nowText}}</view>
+        <image class="com-selectImg" src="/pages/img/down.png" animation="{{animationData}}"></image>
+    </view>
+    <view class="com-selectList" wx:if="{{selectShow}}">
+        <view  class="com-selectItem" wx:for="{{propArray}}" data-index="{{index}}" wx:key=''  bindtap='setText'>{{item.text}}</view>
+    </view>
+</view>

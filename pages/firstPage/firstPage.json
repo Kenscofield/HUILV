@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "Select": "/pages/component/select/select"
+  }
 }

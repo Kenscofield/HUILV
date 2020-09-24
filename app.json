@@ -1,37 +1,42 @@
 {
     "pages": [
         "pages/index/index",
+        "pages/component/select/select",
         "pages/logs/logs",
-        "pages/tarBar/tarBar",
         "pages/firstPage/firstPage", 
         "pages/lastPage/lastPage"
     ],
     "window": {
         "backgroundTextStyle": "dark",
         "navigationBarBackgroundColor": "#0094ff",
-        "navigationBarTitleText": "Weixin",
+        "navigationBarTitleText": "汇率查询",
         "navigationBarTextStyle": "white",
-        "enablePullDownRefresh":true,
-        "backgroundColor":"red"
+        "enablePullDownRefresh":true
     },
     "tabBar": {
       "list": [{
         "pagePath": "pages/firstPage/firstPage",
-        "text": "",
+        "text": "首页",
         "iconPath": "pages/img/l1.png",
-        "selectedIconPath": "pages/img/l2.png"
+        "selectedIconPath": "pages/img/l2.png",
+        "backgroundColor": "#ff5533",
+        "selectedColor": "#ff9400"
       }, 
       {
         "pagePath": "pages/index/index",
-        "text": "",
+        "text": "主页",
         "iconPath": "pages/img/middle1.png",
-        "selectedIconPath": "pages/img/middle2.png"
+        "selectedIconPath": "pages/img/middle2.png",
+        "backgroundColor": "#ff5533",
+        "selectedColor": "#ff9400"
       },
       {
         "pagePath": "pages/lastPage/lastPage",
-        "text": "",
+        "text": "末页",
         "iconPath": "pages/img/r1.png",
-        "selectedIconPath": "pages/img/r2.png"
+        "selectedIconPath": "pages/img/r2.png",
+        "backgroundColor": "#ff5533",
+        "selectedColor": "#ff9400"
       }]
     },
     "style": "v2",

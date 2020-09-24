@@ -1,2 +1,7 @@
 <!--pages/lastPage/lastPage.wxml-->
-<text>末页</text>
+<view>
+    <view>{{msg}}</view>
+    <view>
+        <checkbox checked='true'></checkbox>
+    </view>
+</view>

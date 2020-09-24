@@ -1,2 +1,6 @@
 <!--pages/firstPage/firstPage.wxml-->
-<text class='title'>首页</text>
+<text>\n\n\n</text>
+<view>{{msg}}</view>
+<view>
+        <Select prop-array='{{selectArray}}'></Select>
+</view>
