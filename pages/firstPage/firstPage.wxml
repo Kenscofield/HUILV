@@ -1,6 +1,22 @@
 <!--pages/firstPage/firstPage.wxml-->
-<text>\n\n\n</text>
-<view>{{msg}}</view>
+<text>\n\n</text>
+<view>
+        <Select prop-array="{{selectArray}}"></Select>
+</view>
+
+<text>\n\n\n\n\n\n</text>
 <view>
         <Select prop-array='{{selectArray}}'></Select>
 </view>
+
+<text>\n\n\n\n\n\n</text>
+
+ <view style="display:flex;">
+    <text>请输入金额: </text>
+    <input placeholder="0.0" /> 
+ </view>
+ <text>\n</text>
+  <view style="display:flex;">
+    <text>换算后金额: </text>
+    <input placeholder="0.0" />
+ </view>

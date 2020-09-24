@@ -5,7 +5,6 @@ Page({
      * 页面的初始数据
      */
     data: {
-        msg:"币种",
         selectArray: [{
             "id": "10",
             "text": "人民币"

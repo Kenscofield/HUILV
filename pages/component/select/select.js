@@ -4,7 +4,7 @@ Component({
      * 组件的属性列表
      */
     properties: {
-        propArrry:{
+        propArray:{
             type:Array,
         }
     },
@@ -14,7 +14,7 @@ Component({
      */
     data: {
         selectShow:false,//初始不显示显示
-        nowText:"请选择",//初始内容
+        nowText:"币种",//初始内容
         animationData:{} //右边箭头的动画
     },
 

@@ -16,7 +16,7 @@
     "tabBar": {
       "list": [{
         "pagePath": "pages/firstPage/firstPage",
-        "text": "首页",
+        "text": "汇率兑换",
         "iconPath": "pages/img/l1.png",
         "selectedIconPath": "pages/img/l2.png",
         "backgroundColor": "#ff5533",
@@ -32,7 +32,7 @@
       },
       {
         "pagePath": "pages/lastPage/lastPage",
-        "text": "末页",
+        "text": "历史数据查询",
         "iconPath": "pages/img/r1.png",
         "selectedIconPath": "pages/img/r2.png",
         "backgroundColor": "#ff5533",
